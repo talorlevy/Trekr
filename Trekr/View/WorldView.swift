@@ -20,10 +20,19 @@ struct WorldView: View {
         )
     
     var body: some View {
-        Map(coordinateRegion: $region, annotationItems: locations.places) {
+        Map(coordinateRegion: $region, annotationItems: locations.places) { location in
+            MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)) {
+                NavigationLink(destination: ContentView(location: location)) {
+                    Image(location.country)
+                        .resizable()
+                        .cornerRadius(10)
+                        .frame(width: 80, height: 40)
+                        .shadow(radius: 3)
+                }
+            }
             
         }
-            .navigationTitle("Locations")
+        .navigationTitle("Locations")
     }
 }
 

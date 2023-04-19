@@ -16,6 +16,8 @@
 		8EC46D8A29EDAF2400A5FD44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC46D8929EDAF2400A5FD44 /* ContentView.swift */; };
 		8EC46D8C29EDAF2500A5FD44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC46D8B29EDAF2500A5FD44 /* Assets.xcassets */; };
 		8EC46D8F29EDAF2500A5FD44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC46D8E29EDAF2500A5FD44 /* Preview Assets.xcassets */; };
+		8ECA0CE229F039EB0079CD8B /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA0CE129F039EB0079CD8B /* Tip.swift */; };
+		8ECA0CE429F03ABD0079CD8B /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA0CE329F03ABD0079CD8B /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		8EC46D8929EDAF2400A5FD44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EC46D8B29EDAF2500A5FD44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EC46D8E29EDAF2500A5FD44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8ECA0CE129F039EB0079CD8B /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		8ECA0CE329F03ABD0079CD8B /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 				8EC46D8729EDAF2400A5FD44 /* TrekrApp.swift */,
 				8EC46D8929EDAF2400A5FD44 /* ContentView.swift */,
 				8E6A21CD29EF33CC004460B9 /* WorldView.swift */,
+				8ECA0CE329F03ABD0079CD8B /* TipsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -57,6 +62,7 @@
 			children = (
 				8E6A21C929EF1106004460B9 /* Location.swift */,
 				8E6A21CB29EF235F004460B9 /* Locations.swift */,
+				8ECA0CE129F039EB0079CD8B /* Tip.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +187,8 @@
 				8EC46D8A29EDAF2400A5FD44 /* ContentView.swift in Sources */,
 				8E6A21CA29EF1106004460B9 /* Location.swift in Sources */,
 				8E6A21CE29EF33CC004460B9 /* WorldView.swift in Sources */,
+				8ECA0CE229F039EB0079CD8B /* Tip.swift in Sources */,
+				8ECA0CE429F03ABD0079CD8B /* TipsView.swift in Sources */,
 				8E6A21CC29EF235F004460B9 /* Locations.swift in Sources */,
 				8EC46D8829EDAF2400A5FD44 /* TrekrApp.swift in Sources */,
 			);
